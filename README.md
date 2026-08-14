@@ -73,5 +73,3 @@ Through this project, I practiced:
 ## 👩‍💻 Author
 
 **Riddhi Deshmukh**
-
-⭐ If you like this project, feel free to star the repository!
