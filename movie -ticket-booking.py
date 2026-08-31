@@ -16,12 +16,13 @@ while True:
     if choice in movies:
         movie=movies[choice]
         print("You selected:",movie["name"])
+        customer_name=input("Enter customer name:")
         tickets = int(input("enter number of tickets:"))
         total=tickets*movie["price"]
         print("\n=====Booking Details=====")
         print("Movie:",movie["name"])
         print("Tickets:",tickets)
         print("Total price:rupees-",total)
-        print("Booking scuessfull!")
+        print("Booking sucessfully!")
     else: 
-        print("Invaild Choice!")
+        print("Invalid Choice!")
