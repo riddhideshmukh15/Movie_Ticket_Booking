@@ -80,4 +80,4 @@ Through this project, I practiced:
 
 ---
 
-⭐ If you like this project, consider giving the repository a star!
+
