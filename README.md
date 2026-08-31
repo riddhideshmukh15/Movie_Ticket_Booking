@@ -1,39 +1,40 @@
 # 🎬 Movie Ticket Booking System
 
-A simple **Movie Ticket Booking System** built using **Python**.
-This beginner-friendly project allows users to view available movies, select a movie, choose the number of tickets, and calculate the total ticket price.
+A simple **Movie Ticket Booking System** built using Python.
+This beginner-friendly project allows users to select a movie, enter the number of tickets, and calculate the total ticket price.
 
-## 🚀 Features
+## ✨ Features
 
 * 🎥 View available movies
 * 🎟️ Select a movie
-* 👥 Enter number of tickets
-* 💰 Calculate total price
-* 📋 Display booking details
-* ❌ Exit the program
+* 👤 Enter customer name
+* 🔢 Enter number of tickets
+* 💰 Automatically calculate total price
+* ✅ Display booking details
+* 🚪 Exit the program
 
 ## 🛠️ Technologies Used
 
 * Python
-* Conditional statements
-* Loops
-* User input
+* Dictionaries
+* While Loop
+* If-Else Statements
+* User Input
+
+## 📋 Available Movies
+
+| Movie                    | Ticket Price |
+| ------------------------ | -----------: |
+| Alpha                    |         ₹250 |
+| Dhurandar                |         ₹200 |
+| Spiderman: Brand New Day |         ₹300 |
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/riddhideshmukh15/Movie_Ticket_Booking.git
-```
-
-2. Open the project folder:
-
-```bash
-cd Movie_Ticket_Booking
-```
-
-3. Run the Python file:
+1. Make sure Python is installed.
+2. Download or clone this repository.
+3. Open the project folder in the terminal.
+4. Run:
 
 ```bash
 python movie_ticket_booking.py
@@ -43,33 +44,40 @@ python movie_ticket_booking.py
 
 ```text
 ===== Movie Ticket Booking =====
+1. Alpha - ₹250
+2. Dhurandar - ₹200
+3. Spiderman: Brand New Day - ₹300
+4. Exit
 
-1. Avengers
-2. Avatar
-3. Spider-Man
-
-Enter your choice: 1
+Select movie: 1
+You selected: Alpha
+Enter customer name: Riddhi
 Enter number of tickets: 2
 
-Movie: Avengers
+===== Booking Details =====
+Customer Name: Riddhi
+Movie: Alpha
 Tickets: 2
-Total Price: ₹400
-
-Booking Successful! 🎉
+Total Price: ₹ 500
+Booking Successful!
 ```
 
 ## 📚 What I Learned
 
 Through this project, I practiced:
 
-* `input()` and `print()`
-* Variables
-* `if-elif-else`
-* `while` loops
-* Basic calculations
-* User interaction
-* Building a menu-driven Python program
+* Working with dictionaries
+* Using nested dictionaries
+* Taking user input
+* Using loops
+* Applying conditional statements
+* Performing calculations in Python
+* Building a simple real-world application
 
 ## 👩‍💻 Author
 
 **Riddhi Deshmukh**
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
